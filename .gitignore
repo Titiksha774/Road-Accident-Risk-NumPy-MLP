@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.claude/
+.ipynb_checkpoints/
+
+# Kaggle competition data (download from Kaggle, not redistributed here)
+*.csv
+
+# Office lock files
+~$*

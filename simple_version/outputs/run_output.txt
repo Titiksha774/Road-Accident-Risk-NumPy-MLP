@@ -1,0 +1,36 @@
+Step 2: loading and preprocessing data
+  train=362428  validation=77663  test=77663
+  input features: 32
+Step 3: building the model
+  layers: 32 -> 64 -> 32 -> 1
+Step 4: training for 10 epochs
+Epoch  1/10  train RMSE=0.0585  val RMSE=0.0585  val R2=0.8765
+Epoch  2/10  train RMSE=0.0576  val RMSE=0.0577  val R2=0.8798
+Epoch  3/10  train RMSE=0.0574  val RMSE=0.0576  val R2=0.8805
+Epoch  4/10  train RMSE=0.0573  val RMSE=0.0574  val R2=0.8811
+Epoch  5/10  train RMSE=0.0573  val RMSE=0.0575  val R2=0.8809
+Epoch  6/10  train RMSE=0.0570  val RMSE=0.0572  val R2=0.8819
+Epoch  7/10  train RMSE=0.0570  val RMSE=0.0572  val R2=0.8820
+Epoch  8/10  train RMSE=0.0570  val RMSE=0.0571  val R2=0.8822
+Epoch  9/10  train RMSE=0.0568  val RMSE=0.0570  val R2=0.8827
+Epoch 10/10  train RMSE=0.0570  val RMSE=0.0573  val R2=0.8818
+Step 5: evaluating on the test set
+  RMSE: model=0.0567   baseline (always predict mean)=0.1663
+  MAE: model=0.0444   baseline (always predict mean)=0.1326
+  R2: model=0.8836   baseline (always predict mean)=-0.0000
+  Risk-level accuracy: model=0.8301   baseline (always predict mean)=0.5398
+Step 6: analysis
+  speed_limit              0.0824
+  curvature                0.0793
+  lighting                 0.0785
+  weather                  0.0275
+  num_reported_accidents   0.0100
+  holiday                  0.0001
+  public_road              0.0001
+  time_of_day              0.0000
+  num_lanes                0.0000
+  road_signs_present       0.0000
+  road_type                -0.0000
+  school_season            -0.0000
+Example road: risk=0.794 -> VERY HIGH
+Saved outputs to /sessions/rcw-01qhdaspen5xkuapwer6uyrw/mnt/RoadAccidentCSV/simple_version/outputs

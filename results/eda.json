@@ -1,0 +1,151 @@
+{
+ "shape_train": [
+  517754,
+  14
+ ],
+ "shape_test": [
+  172585,
+  13
+ ],
+ "missing": 0,
+ "dups_id": 0,
+ "target": {
+  "count": 517754.0,
+  "mean": 0.3524,
+  "std": 0.1664,
+  "min": 0.0,
+  "25%": 0.23,
+  "50%": 0.34,
+  "75%": 0.46,
+  "max": 1.0
+ },
+ "means": {
+  "lighting": {
+   "daylight": 0.3029,
+   "dim": 0.3001,
+   "night": 0.4705
+  },
+  "weather": {
+   "clear": 0.3101,
+   "foggy": 0.3863,
+   "rainy": 0.3615
+  },
+  "road_type": {
+   "highway": 0.3497,
+   "rural": 0.35,
+   "urban": 0.3575
+  },
+  "time_of_day": {
+   "afternoon": 0.3514,
+   "evening": 0.3547,
+   "morning": 0.351
+  },
+  "speed_limit": {
+   "25": 0.2918,
+   "35": 0.2879,
+   "45": 0.2928,
+   "60": 0.4666,
+   "70": 0.4514
+  },
+  "num_lanes": {
+   "1": 0.3513,
+   "2": 0.3538,
+   "3": 0.3573,
+   "4": 0.3472
+  },
+  "num_reported_accidents": {
+   "0": 0.3388,
+   "1": 0.3307,
+   "2": 0.343,
+   "3": 0.5501,
+   "4": 0.6852,
+   "5": 0.6291,
+   "6": 0.5158,
+   "7": 0.1
+  },
+  "road_signs_present": {
+   "False": 0.3523,
+   "True": 0.3525
+  },
+  "public_road": {
+   "False": 0.3472,
+   "True": 0.3575
+  },
+  "holiday": {
+   "False": 0.3438,
+   "True": 0.3608
+  },
+  "school_season": {
+   "False": 0.3525,
+   "True": 0.3522
+  }
+ },
+ "counts": {
+  "lighting": {
+   "daylight": 178015,
+   "dim": 183826,
+   "night": 155913
+  },
+  "weather": {
+   "clear": 179306,
+   "foggy": 181463,
+   "rainy": 156985
+  },
+  "road_type": {
+   "highway": 173672,
+   "rural": 172719,
+   "urban": 171363
+  },
+  "time_of_day": {
+   "afternoon": 171507,
+   "evening": 172837,
+   "morning": 173410
+  },
+  "speed_limit": {
+   "25": 101422,
+   "35": 111628,
+   "45": 115752,
+   "60": 100304,
+   "70": 88648
+  },
+  "num_lanes": {
+   "1": 131168,
+   "2": 130054,
+   "3": 127414,
+   "4": 129118
+  },
+  "num_reported_accidents": {
+   "0": 125269,
+   "1": 209674,
+   "2": 145965,
+   "3": 34197,
+   "4": 2392,
+   "5": 231,
+   "6": 24,
+   "7": 2
+  },
+  "road_signs_present": {
+   "False": 259289,
+   "True": 258465
+  },
+  "public_road": {
+   "False": 257709,
+   "True": 260045
+  },
+  "holiday": {
+   "False": 257066,
+   "True": 260688
+  },
+  "school_season": {
+   "False": 260164,
+   "True": 257590
+  }
+ },
+ "corr": {
+  "num_lanes": -0.006,
+  "curvature": 0.5439,
+  "speed_limit": 0.4309,
+  "num_reported_accidents": 0.2139,
+  "accident_risk": 1.0
+ }
+}
