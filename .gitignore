@@ -11,3 +11,11 @@ venv/
 
 # Office lock files
 ~$*
+
+# Secrets - never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
